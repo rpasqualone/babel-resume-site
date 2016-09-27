@@ -1,0 +1,35 @@
+{
+  "name": "resume",
+  "version": "2.0.0",
+  "description": "Static resume web page",
+  "homepage": "https://github.com/mmiller42/resume#readme",
+  "scripts": {
+    "dev": "webpack-dev-server --content-base ./build --hot --inline --progress --colors",
+    "build": "NODE_ENV=production webpack -p --progress --colors",
+    "serve": "http-server build/",
+    "deploy": "./deploy.sh",
+    "postinstall": "bower install"
+  },
+  "author": "Matt Miller <me@mmiller.me>",
+  "dependencies": {
+    "jquery": "^3.1.0"
+  },
+  "devDependencies": {
+    "babel-core": "6.7.7",
+    "babel-loader": "6.2.4",
+    "babel-plugin-transform-object-rest-spread": "^6.8.0",
+    "babel-preset-es2015": "6.6.0",
+    "bower": "^1.7.9",
+    "css-loader": "0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "0.9.0",
+    "html-loader": "^0.4.3",
+    "html-webpack-plugin": "^2.22.0",
+    "http-server": "^0.9.0",
+    "imports-loader": "0.6.5",
+    "style-loader": "0.13.1",
+    "url-loader": "0.5.7",
+    "webpack": "1.13.0",
+    "webpack-dev-server": "1.14.1"
+  }
+}

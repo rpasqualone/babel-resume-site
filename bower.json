@@ -1,0 +1,17 @@
+{
+  "name": "resume",
+  "version": "2.0.0",
+  "description": "Static resume web page",
+  "homepage": "https://resume.mmiller.me/",
+  "authors": [
+    "Matt Miller <me@mmiller.me>"
+  ],
+  "dependencies": {
+    "bsw-yeti": "~3.2.1",
+    "components-font-awesome": "~4.6.3",
+    "bootstrap": "^3.3.7"
+  },
+  "resolutions": {
+    "bootstrap": "3.2.0"
+  }
+}
